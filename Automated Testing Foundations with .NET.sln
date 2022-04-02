@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Development and build tools", "Development and build tools\Development and build tools.csproj", "{04D97A72-C08D-4D2F-B4F8-32E98CD0CAC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic of .NET Framework and CSharp", "Basic of .NET Framework and CSharp\Basic of .NET Framework and CSharp.csproj", "{12179FDA-F3D7-4FF7-92DB-1B1D30CEA8AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04D97A72-C08D-4D2F-B4F8-32E98CD0CAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D97A72-C08D-4D2F-B4F8-32E98CD0CAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D97A72-C08D-4D2F-B4F8-32E98CD0CAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12179FDA-F3D7-4FF7-92DB-1B1D30CEA8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12179FDA-F3D7-4FF7-92DB-1B1D30CEA8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12179FDA-F3D7-4FF7-92DB-1B1D30CEA8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12179FDA-F3D7-4FF7-92DB-1B1D30CEA8AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
