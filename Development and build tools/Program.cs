@@ -14,7 +14,8 @@ namespace Development_and_build_tools
             string data = Console.ReadLine();
             if (data != string.Empty)
             {
-                int maxSequence = 1, currentSequence = 1;
+                int maxSequence = 1;
+                int currentSequence = 1;
                 for (int i = 0; i < data.Length - 1; i++)
                 {
                     if (data[i] != data[i + 1])

@@ -10,9 +10,12 @@ namespace Basic_of.NET_Framework_and_CSharp
     {
         static void Main(string[] args)
         {
-            int number, basis, index;
+            int number;
+            int basis;
+            int index;
             string values = "0123456789ABCDEFGHIJ";
             string result = string.Empty;
+
             Console.Write("Введите число в 10-чной системе счисления: ");
             number = Convert.ToInt32(Console.ReadLine());
             Console.Write("Введите основание новой системы счисления (от 2 до 20): ");
@@ -23,6 +26,7 @@ namespace Basic_of.NET_Framework_and_CSharp
                 number = number / basis;
                 result = values[index] + result;
             }
+
             Console.Write($"Ваше число в {basis}-чной системе счисления: {result}");
             Console.ReadKey();
         }
