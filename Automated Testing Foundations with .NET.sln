@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces and abstract cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{95A40CDB-CAA4-4A08-9291-48F9528D4DBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{38FA8D3D-E75F-4ED9-B95E-21876CBA9724}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{95A40CDB-CAA4-4A08-9291-48F9528D4DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A40CDB-CAA4-4A08-9291-48F9528D4DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A40CDB-CAA4-4A08-9291-48F9528D4DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FA8D3D-E75F-4ED9-B95E-21876CBA9724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FA8D3D-E75F-4ED9-B95E-21876CBA9724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FA8D3D-E75F-4ED9-B95E-21876CBA9724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FA8D3D-E75F-4ED9-B95E-21876CBA9724}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
